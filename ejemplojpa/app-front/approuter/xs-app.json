@@ -1,0 +1,21 @@
+{
+  "welcomeFile": "uimodule/index.html",
+  "authenticationMethod": "none",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+
+  "routes": [
+    {
+      "source": "^/uimodule/(.*)$",
+      "target": "$1",
+      "authenticationType": "none",
+      "localDir": "uimodule/webapp"
+    },
+    {
+      "source": "^/data/(.*)$",
+      "destination": "srv_api",
+      "target": "/$1"
+    }
+  ]
+}

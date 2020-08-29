@@ -1,0 +1,9 @@
+{
+  "destinations": [
+    {
+      "name": "srv_api",
+      "url": "https://spring-jpa-rested-cheetah-vi.cfapps.eu10.hana.ondemand.com",
+      "forwardAuthToken": true
+    }
+  ]
+}
